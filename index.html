@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.js"></script><!--jquery offline-->
+    <script src="js/java.js"></script>
+    <link rel="shortcut icon" href="img/IESTP-Lurin.ico" type="image/x-icon">
+    <title>Tarjeta de preesentacion</title>
+</head>
+<body>
+    <div class="contenedor"><!--contenedor general-->
+        <section class="tarjeta"><!--tarjeta central-->
+            <section class="slider_banner">
+                <div class="banner" id="banner"><!--contenedor de imagenes-->
+                    <img class="slide active" src="img/BIENVENIDOS.jpg" alt=""><!--primera imagen-->
+                    <img class="slide" src="img/carreras.jpg" alt="">
+                    <img class="slide" src="img/C.jpg" alt="">
+                    <img class="slide" src="img/ct.jpg" alt="">
+                    <img class="slide" src="img/p.jpg" alt="">
+                </div>
+                <!--Botones de banner-->
+                <!--id para JS y class para CSS-->
+                <a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a>
+                <a href="#" id="banner-next" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
+            </section>
+                <!--Flechas de info-->
+                <!--id para JS y class para CSS-->
+            <section class="slider_info">
+                <a href="#" id="info-prev" class="flecha-info anterior"><span class="fa fa-arrow-left"></span></a>
+                <a href="#" id="info-next" class="flecha-info siguiente"><span class="fa fa-arrow-right"></span></a>
+                <!--datos del banner info-->
+                <!--id para JS y class para CSS-->
+                <section id="informacion" class="informacion">
+                    <article id="info">
+                        <div class="slide active"> <!--slide de inicio-->
+                            <h1 class="nombre">I.E.S.T.P “LURIN”</h1>
+                            <p class="trabajo">Somos un instituto de educación superior tecnológica, que busca brindar un servicio educativo de nivel técnico con estándares de calidad.</p>
+                            <p class="pais"><img src="img/bandera.png" alt="">Perú</p>
+                        </div>
+                        <div class="slide">
+                            <h2 class="subtitulo">VISIÓN</h2>
+                            <p class="texto">Ser líder en formación tecnológica en nuestra región por la calidad de la formación académica de sus estudiantes, por ser una institución en vías de acreditación, de equipos, mejoramiento de la infraestructura y por sus egresados con mentalidad empresarial e innovadora, que respondan a las exigencias laborales del mercado globalizado y comprometidos con la cultura de protección y preservación del medio ambiente para 2021.</p>
+                        </div>
+                        <div class="slide">
+                            <h2 class="subtitulo">MISIÓN</h2>
+                            <p class="texto">Formar profesionales tecnicos competentes de alto nivel académico, para ejecutar su profesión con eficiencia y calidad capaces de promover y crear puestos de trabajo, poniendo en práctica una alto nivel  ético, basado en principios y valores sociales de una cultura de paz y progreso.</p>
+                        </div>
+                    </article>
+                    <div class="botones" id="botones"></div><!--botones de slide con jquery automatico-->
+                </section>
+            </section>
+            <!--redes sociales-->
+            <section class="redes-sociales">
+                <a href="https://www.facebook.com/Instituto-de-Educaci%C3%B3n-Superior-Tecnol%C3%B3gico-P%C3%BAblico-Lur%C3%ADn-1669236670017003/" class="facebook" target="_blank"><span class="fa fa-facebook"></span></a>
+                <a href="https://twitter.com/drelm_lima" class="twitter" target="_blank"><span class="fa fa-twitter"></span></a>
+                <a href="https://www.youtube.com/user/drelmlima" class="youtube" target="_blank"><span class="fa fa-youtube"></span></a>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
